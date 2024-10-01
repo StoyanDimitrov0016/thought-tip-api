@@ -1,0 +1,1 @@
+{"root":["./src/app.ts","./src/index.ts","./src/config/categoriesdata.ts","./src/config/mongodbconfig.ts","./src/models/article.model.ts","./src/types/commontypes.ts","./src/types/modeltypes/iarticle.model.ts","./src/types/modeltypes/iauthor.model.ts","./src/utils/categorieshelper.ts"],"version":"5.6.2"}
