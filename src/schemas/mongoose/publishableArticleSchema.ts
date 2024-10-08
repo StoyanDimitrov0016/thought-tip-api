@@ -30,7 +30,7 @@ const publishableArticleSchema = new Schema(
       maxLength: [16000, "Content must be at most 16000 characters long"],
       trim: true,
     },
-    topic: { type: Types.ObjectId, ref: "Topic", required: false },
+    topic: { type: Types.ObjectId, ref: "Topic", required: true },
     tags: {
       type: [{ type: Types.ObjectId, ref: "Tag", required: true }],
       required: [true, "At least one tag is required"],
