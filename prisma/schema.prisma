@@ -13,6 +13,8 @@ enum SegmentationType {
   TAG      @map("tag")
 }
 
+// TODO: make "name" unique too or at least unique for siblings (@@unique([parentId, name]))
+// TODO: add "updatedBy" and "popularityScore" in the future
 model Segmentation {
   id          String @id @default(auto()) @map("_id") @db.ObjectId
   name        String
